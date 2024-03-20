@@ -1,0 +1,43 @@
+{
+  "hosting": {
+    "public": "root",
+	"site": "ai-dream",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+	"redirects": [ {
+    "source": "/index.html",
+    "destination": "/",
+    "type": 301
+  },
+  {
+        "source": "dream-interpreter.online",
+        "destination": "https://www.dream-interpreter.online",
+        "type": 301
+      },
+      {
+        "source": "www.dream-interpreter.online",
+        "destination": "https://dream-interpreter.online",
+        "type": 301
+      },
+  {
+    "source": "https://ai-dream.web.app",
+    "destination": "https://dream-interpreter.online",
+    "type": 301
+  },{
+    "source": "https://ai-dream.firebaseapp.com",
+    "destination": "https://dream-interpreter.online",
+    "type": 301
+  },{
+    "source": "https://ai-dream.firebaseapp.com/:path*",
+    "destination": "https://dream-interpreter.online",
+    "type": 301
+  },{
+    "source": "https://ai-dream.firebaseapp.com/:path*",
+    "destination": "https://dream-interpreter.online",
+    "type": 301
+  } ]
+  }
+}
